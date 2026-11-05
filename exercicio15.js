@@ -7,5 +7,13 @@ motorista. Crie um programa que receba a idade do motorista, se ele possui a
 credencial (true/false) e o tipo de veículo, informando se a parada na vaga é 
 permitida. */
 
+var idade = 50
+var credencial = true
+var tipoVeiculo = "passageiros"
 
+if ( tipoVeiculo !== "caminhão" && credencial == true || idade >= 60){
+    console.log("Parada permitida")
+} else{
+    console.log("Parada não permitida")
+}
 
