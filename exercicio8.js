@@ -1,0 +1,16 @@
+//8. Aprovação Escolar Completa (&& e ||) 
+/*Um aluno é aprovado se tiver nota maior ou igual a 7 e frequencia maior ou igual a 75%. 
+Porém, se ele tiver nota menor que 7, mas tiver o trabalhoExtra como true e frequencia maior ou igual a 75%, ele também é aprovado. 
+Crie a lógica para verificar a situação do aluno.*/
+
+var nota = 6
+var frequencia = 85
+var trabalhoExtra = true
+
+if (( nota >= 7) && (frequencia >= 75)|| (nota < 7) && (trabalhoExtra == true) && (frequencia >= 75)){
+        console.log("Aprovado")
+        }
+else {
+    console.log("Reprovado") 
+}
+
